@@ -1,4 +1,4 @@
-# designsprint-enterprise
+# Design Sprint Enterprise
 Adapting Design Sprint Metodology to Enterprise Documentation
 This is a middleman website (https://middlemanapp.com/).
 
@@ -25,13 +25,25 @@ An then execute bundler commands:
 After installing Middleman, you're already to run the project, just executing: 
 
     $ bundle exec middleman server
+  or only
+    $ middleman
 
-The project run on `http://localhost:4567/`
+
+The development runs on local server `http://localhost:4567/`
 
 ## Compile files to remote server upload
 
 Stop middleman server using `CTRL + C` on keyboard and then execute:
 
     $ bundle exec middleman build
+  or only
+    $ middleman build
 
-The project files you can found it on **build** folder.
+The compiled project files you can found it in **build** folder.
+
+## Languages
+
+All languages can it change on .yml files
+
+- If you need change english language `\locales/en.yml` file.
+- If you need change spanish language `\locales/es.yml` file.
