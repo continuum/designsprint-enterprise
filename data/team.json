@@ -1,0 +1,184 @@
+[
+  {
+    "indice": "01",
+    "name": "Alba Cárdenas",
+    "photo": "/assets/images/conocenos/individuales/alba.jpg",
+    "photo-default": "/assets/images/conocenos/individuales/alba.jpg",
+    "photo-hover": "/assets/images/conocenos/individuales/alfredo.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/alba-c%C3%A1rdenas-andrade-70307560/",
+      "github": "https://github.com/a1b4"
+    }
+  },
+  {
+    "indice": "02",
+    "name": "Andrés Peñailillo",
+    "photo": "/assets/images/conocenos/individuales/andres.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/andrespenailillo/",
+      "github": "https://github.com/apenailillo"
+    }
+  },
+  {
+    "indice": "03",
+    "name": "Alfredo Fiebig",
+    "photo": "/assets/images/conocenos/individuales/alfredo.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/afiebigc/",
+      "github": "https://github.com/afiebig"
+    }
+  },
+  {
+    "indice": "04",
+    "name": "Carlos Alarcón",
+    "photo": "/assets/images/conocenos/individuales/carlos-a.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/cea2k/",
+      "github": "https://github.com/cea2k"
+    }
+  },
+  {
+    "indice": "05",
+    "name": "Carlos Fiebig",
+    "photo": "/assets/images/conocenos/individuales/carlos-f.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/carlos-fiebig-9182b0145/",
+      "github": "https://github.com/cffiebigc"
+    }
+  },
+  {
+    "indice": "06",
+    "name": "Consuelo Olivares",
+    "photo": "/assets/images/conocenos/individuales/consuelo.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/consuelo-olivares-%C3%A1brego-962b8826/"
+    }
+  },
+  {
+    "indice": "07",
+    "name": "Ernesto García",
+    "photo": "/assets/images/conocenos/individuales/ernesto.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/gnapse/",
+      "github": "https://github.com/gnapse"
+    }
+  },
+  {
+    "indice": "08",
+    "name": "Leo Soto",
+    "photo": "/assets/images/conocenos/individuales/leo.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/leosoto/",
+      "medium": "https://medium.com/@leosoto",
+      "github": "https://github.com/leosoto"
+    }
+  },
+  {
+    "indice": "09",
+    "name": "Liliana Reyes",
+    "photo": "/assets/images/conocenos/individuales/lily.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/liliana-reyes-87229315/",
+      "medium": "https://medium.com/@lilianareyes"
+    }
+  },
+  {
+    "indice": "10",
+    "name": "Gonzalo Castillo",
+    "photo": "/assets/images/conocenos/individuales/gonzalo.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/gonzalo-castillo-fajardo-3b0539111/"
+    }
+  },
+  {
+    "indice": "11",
+    "name": "Eugenio López",
+    "photo": "/assets/images/conocenos/individuales/eugenio.jpg",
+    "redes": {
+      "github": "https://github.com/eugenioLopezRamos"
+    }
+  },
+  {
+    "indice": "12",
+    "name": "Luis Hernández",
+    "photo": "/assets/images/conocenos/individuales/luis.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/luelher/",
+      "github": "https://github.com/luelher"
+    }
+  },
+  {
+    "indice": "13",
+    "name": "Marion Castillo",
+    "photo": "/assets/images/conocenos/individuales/marion.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/marionaudiovisual/",
+      "github": "https://github.com/marioncastillo"
+    }
+  },
+  {
+    "indice": "14",
+    "name": "Ricardo Alfaro",
+    "photo": "/assets/images/conocenos/individuales/ricardo-a.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/ricardoalfarog/",
+      "medium": "https://medium.com/@ricardoalfaro",
+      "github": "https://github.com/ricardoalfaro"
+    }
+  },
+  {
+    "indice": "15",
+    "name": "Ricardo Jara",
+    "photo": "/assets/images/conocenos/individuales/ricardo-j.jpg",
+    "linkedin": "https://www.linkedin.com/in/ricardo-jara-64103226/",
+    "redes": {
+      "linkedin": "https://cl.linkedin.com/in/ricardo-jara-64103226",
+      "medium": "https://medium.com/@ricardo.jara_30032"
+    }
+  },
+  {
+    "indice": "16",
+    "name": "Josefa Villanueva",
+    "photo": "/assets/images/conocenos/individuales/josefa.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/josefa-villanueva-875b82b1/"
+    }
+  },
+  {
+    "indice": "17",
+    "name": "Rodrigo Ayala",
+    "photo": "/assets/images/conocenos/individuales/rodrigo.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/rodrigoayaladelcastillo/",
+      "github": "https://github.com/RodrigoAyala"
+    }
+  },
+  {
+    "indice": "18",
+    "name": "Verónica Cortés",
+    "photo": "/assets/images/conocenos/individuales/veronica.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/veronica-cortes-ferrera-ux/",
+      "github": "https://github.com/verocortesferrera"
+    }
+  },
+  {
+    "indice": "19",
+    "name": "Víctor Utreras",
+    "photo": "/assets/images/conocenos/individuales/victor.jpg",
+    "redes": {
+      "linkedin": "https://www.linkedin.com/in/victor-utreras-jofre-99b2366b/",
+      "github": "https://github.com/vutreras"
+    }
+  },
+  {
+    "indice": "20",
+    "name": "Felipe Funes",
+    "photo": "/assets/images/conocenos/individuales/felipe.jpg",
+    "linkedin": "https://www.linkedin.com/in/felipe-funes-58727232/",
+    "redes": {
+      "linkedin": "https://cl.linkedin.com/in/felipe-funes-58727232",
+      "github": "https://github.com/felipefunes"
+    }
+  }
+]
