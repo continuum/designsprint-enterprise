@@ -1,11 +1,12 @@
-###
-# Compass
-###
+# Activate and configure extensions
+# https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+activate :autoprefixer do |prefix|
+  prefix.browsers = "last 2 versions"
+end
+
+# Activate Languages
+activate :i18n, :mount_at_root => :es
 
 ###
 # Page options, layouts, aliases and proxies
@@ -41,13 +42,6 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-#activate :autoprefixer do |prefix|
-#  prefix.browsers = "last 2 versions"
-#end
-
-# Activate Languages
-#activate :i18n, :mount_at_root => :es
-
 # Pretty URLs 
 # activate :directory_indexes
 
@@ -64,11 +58,7 @@ activate :livereload
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
-#activate :i18n, mount_at_root: :es
 activate :minify_css
-
-#activate :directory_indexes
-
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
@@ -76,7 +66,7 @@ activate :minify_css
 configure :build do
 #   activate :minify_css
 #   activate :minify_javascript
-  activate :relative_assets
+    activate :relative_assets
 end
 
-proxy "_redirects", "netlify-redirects", ignore: true
+#proxy "_redirects", "netlify-redirects", ignore: true
