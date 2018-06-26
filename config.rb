@@ -42,8 +42,8 @@ activate :i18n, :mount_at_root => :es
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Pretty URLs 
-# activate :directory_indexes
+# Pretty URLs
+activate :directory_indexes
 
 # Live Reloaded
 activate :livereload
