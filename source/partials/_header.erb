@@ -1,3 +1,20 @@
 <header>
-  Header
+  <div class="container">
+    <div class="logo">
+      <% link_to('/', title: t('base.title')) do %>
+        <%= image_tag 'logoContinuum.svg' %>
+      <% end %>
+    </div>
+    <nav>
+      <ul>
+        <% Hash[t('header.options')].each do |key, option| %>  
+          <li>
+            <% link_to option[:url], title: option[:texto] do %>
+              <%= option[:texto] %>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
 </header>
