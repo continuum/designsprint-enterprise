@@ -38,13 +38,13 @@ ul{
 }
 
 body {
-  background-color: #FFF;
-  font-family: "Lato", sans-serif;
+  background-color: $white;
+  font-family: 'Playfair Display', serif;
   padding: 0;
   margin: 0;
   section{
-    &:nth-child(even){
-      background-color: #f9f9f9;
+    &:nth-child(odd){
+      background-color: $light-gray;
     }
   }
 }
@@ -56,32 +56,7 @@ a{
   }
 }
 
-section, footer, header, div{
-  .content{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 6%;
-    text-align: center;
-  }
-}
-
-.link-bottom{
-  display: inline-block;
-  background-color: #6BB239;
-  border: none;
-  padding: 15px;
-  color: white;
-  width: 40%;
-  font-size: 1.8rem;
-  text-decoration: none;
-  &:hover{
-    text-decoration: none;
-    color: #ffff;
-    background-color: rgb(87, 158, 37)
-  }
-}
-
-.generic-main-title {
+.main-title {
   display: block;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -96,28 +71,41 @@ section, footer, header, div{
   }
 }
 
-
-// Mediaqueries generales
-@media screen and (min-width: 1024px) { 
-  .content{
-    max-width: 980px;
-  }
-  section, footer, header{
-    .content{
-      padding: 0;
-    }
-  }
-  .generic-main-title{
-    font-size: 3.5rem;
-    text-align: left;
-  }
-  .xs-visible{
-    display: none;
+section, footer, header, div{
+  .container{
+    width: 100%;
+    max-width: 1178px;
+    margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 1200px) { 
-  .content{
-    max-width: 1140px;
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 640px){
+  section, footer, header, div{
+  .container{
+      width: 100%;
+      max-width: initial;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 641px) 
+and (max-device-width : 1024px) {
+  .container{
+    width: 90%;
+    max-width: initial;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1025px)
+and (max-width: 1200px) {
+  .container{
+    width: 100%;
+    max-width: 1178px;
+    margin: 0 auto;
   }
 }

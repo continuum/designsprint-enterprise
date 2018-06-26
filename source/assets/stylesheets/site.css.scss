@@ -1,11 +1,29 @@
+// Colors
+$white: #fff;
+$light-gray: #f9f9f9;
+$dark-gray: #444;
+$medium-gray: #ccc;
+$primary-color: #00adee;
+$secondary-color: #ee008b;
+
+//Imports
 @import 'general';
 @import 'header';
+@import 'home';
 @import 'footer';
 
-// Variables de color
-$white: #fff;
-$green: #69B42E;
-$teal: #8DCCD1;
-$light-gray: #F1F1F1;
-$dark-gray: #3E4349;
-$gray: #757685;
+//Fonts
+
+.font{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Poppins', sans-serif;
+}
