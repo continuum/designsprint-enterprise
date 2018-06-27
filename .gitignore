@@ -9,6 +9,7 @@
 /node_modules
 
 # Ignore the build directory
+/build
 /dist
 /_site
 

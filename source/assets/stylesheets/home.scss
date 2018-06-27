@@ -8,6 +8,8 @@
     color: $primary-color;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 8%;
   }
   h2, p, h4{
     font-family: 'Poppins', sans-serif;
@@ -28,9 +30,24 @@
     min-height: calc(100vh - 70px);
     img{
       mix-blend-mode: multiply;
+      width: 70%;
+      margin: 8% auto 0 auto;
     }
     h1{
-      font-family: 'Amatic SC', cursive;
+      font-size: 5rem;
+      margin-bottom: 0;
+    }
+    h2{
+      width: 50%;
+      margin: 0 auto 4% auto;
+      line-height: 130%;
+    }
+    .schema{
+      display: grid;
+      grid-template-columns: repeat(5, 20%);
+      .days{
+        @include flex-center();
+      }
     }
   }  
 }
@@ -57,7 +74,7 @@
     .box{
       background-color: $white;
       text-align: center;
-      padding: 5%;
+      padding: 8%;
     }
   }
 }
