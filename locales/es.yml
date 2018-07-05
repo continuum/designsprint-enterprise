@@ -33,6 +33,11 @@ es:
   presentation:
     title: Design Sprint Enterprise
     description_home: Una adaptación de la metodología original para usarla en entornos corporativos.
+    day1: Mapear
+    day2: Bocetear
+    day3: Votar
+    day4: Prototipar
+    day5: Probar
     why-title: ¿Por qué la adaptamos?
     why: El 2016 conocimos la famosa metodología <a href="http://www.gv.com/sprint/">Design Sprint de Google Ventures</a> que tiene como requisito fundamental la participación de todos los involucrados durante una semana. Nos encantó la idea de empezar a probarla, pero por nuestra experiencia trabajando con clientes de grandes empresas, reconocimos que con la falta de tiempo de los tomadores de decisiones, se vuelve casi imposible conseguir su participación fulltime en los proyectos. <br> <br>Dado ese escenario es que decidimos ajustar las actividades que los involucran, para sólo requerirlos en aquellas de carácter relevante donde su visión es clave para las futuras etapas del proceso. Hasta la fecha hemos probado y afinado la adaptación con éxito en muchos proyectos y en lugar queremos poner a disposición de la comunidad todo este aprendizaje e invitarlos a compartir sus experiencias con nosotros también.
 
