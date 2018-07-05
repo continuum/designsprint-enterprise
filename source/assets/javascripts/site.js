@@ -1,4 +1,4 @@
-$(document).ready(function() {
+(function($){
 
   //Responsive Nav Menu
   $('.toggle-nav-mobile').click(function(){
