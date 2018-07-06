@@ -52,8 +52,10 @@ body {
 
 a{
   transition: all .15s ease-in-out;
+  color: $primary-color;
   &:focus,
   &:hover {
+    color: $secondary-color;
   }
 }
 
