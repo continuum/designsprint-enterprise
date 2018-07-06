@@ -29,14 +29,38 @@
   height: $height;
 }
 
+@keyframes offsteps {
+  0% {
+    filter: opacity(100%) grayscale(0%);
+  }
+  100% {
+    filter: opacity(30%) grayscale(100%); 
+  }
+}
+
+@keyframes appears {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .cta{
   display: inline-block;
   text-decoration: none;
   border: 1px solid $primary-color;
+  border-bottom: 3px solid $primary-color;
   color: $primary-color;
   padding: 12px 20px;
   margin-top: 30px;
   border-radius: 40px;
+  &:hover,
+  &:focus{
+    border-color: $secondary-color;
+    color: $secondary-color;
+  }
 }
 
 .presentation{
@@ -127,24 +151,6 @@
   }  
 }
 
-@keyframes offsteps {
-  0% {
-    filter: opacity(100%) grayscale(0%);
-  }
-  100% {
-    filter: opacity(30%) grayscale(100%); 
-  }
-}
-
-@keyframes appears {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .invitation{
   background: image_url('design-sprint-enterprise-voting-continuum.jpg') fixed;
   background-size: cover;
@@ -212,14 +218,23 @@
         }
         .step-title{
           position: absolute;
-          border-bottom: 2px solid $primary-color;
+          border-bottom: 3px solid $primary-color;
           display: inline-block;
           color: $primary-color;
           text-transform: uppercase;
-          font-size: 0.6rem;
+          font-size: 0.7rem;
           font-weight: bold;
-          padding: 3px 0;
+          padding: 3px 10px;
           bottom: 0;
+          &:hover,
+          &:focus{
+            color: $secondary-color;
+            border-color: $secondary-color;
+          }
+          &:focus{
+            border-width-top: 2px;
+            border-width-top: 1px;
+          }
         }
         .step-subtitle{
           font-family: 'Amatic SC', cursive;
@@ -272,8 +287,129 @@
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px){
+and (max-device-width : 480px){  
+  .presentation .container{
+    padding: 10% 6%;
+    min-height: 90vh;
+    h1{
+      font-size: 2.4rem;
+      letter-spacing: -0.06rem;
+    }
+    h2{
+      width: 100%;
+      font-size: 1rem;
+    }
+    .schema{
+      width: 90%;
+      margin: 0 auto;
+      .days.d1,
+      .days.d3,
+      .days.d5{
+        padding-top: 0;
+      }
+      .days{
+        img{
+          width: 100%;
+        }
+      }
+      .days:after{
+        position: relative;
+        font-size: 0.9rem;
+      }
+      .days:before{
+        display: none;
+      }
+    }
+    img{
+      width: 50%;
+    }
+  }
   
+  .invitation{
+    background-position-x: center;
+    &:before{
+      background-color: rgba(0,0,0,0.7);
+    }
+    .container{
+      padding: 2%;
+      .box{
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        h3{
+          text-align: center;
+          font-size: 2.4rem;
+          letter-spacing: -0.06rem;
+          display: block;
+        }
+        p{
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .how{
+    .container{
+      .how-container{
+        display: block;
+        padding: 6%;
+        .how-description{
+          h3, h4{
+            text-align: center;
+            font-size: 0.9rem;
+            line-height: 1.2rem;
+          }
+          h3{
+            font-size: 1.7rem;
+            letter-spacing: -0.06rem;
+          }
+        }
+        .how-image{
+          text-align: center;
+          img{
+            margin: 10px auto;
+            width: 70%;
+          }
+        }
+      }
+      .steps{
+        display: block;
+        padding: 0 6% 6% 6%;
+        margin-top: 0;
+        .steps-step{
+          border: none;
+          padding: 5px !important;
+          &:first-child,
+          &:nth-child(4){
+            border: none;
+          }
+          .step-image{
+            float: left;
+            height: 200px;
+            width: 45%;
+            img{
+              height: 100%;
+            }
+          }
+          .step-title{
+            position: relative;
+          }
+          &:nth-child(odd){
+            .step-image{
+              float: right;
+            }
+          }
+        }
+      }
+      .steps-client-block{
+        display: none;
+      }
+    }
+  }
 }
 
 @media only screen 

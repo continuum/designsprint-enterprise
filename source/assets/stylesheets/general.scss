@@ -57,6 +57,10 @@ a{
   &:hover {
     color: $secondary-color;
   }
+  &.off{
+    pointer-events: none;
+    display: none;
+  }
 }
 
 .main-title {
