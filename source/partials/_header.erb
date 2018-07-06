@@ -9,7 +9,7 @@
       <ul>
         <% Hash[t('header.options')].each do |key, option| %>  
           <li>
-            <% link_to option[:url], title: option[:texto] do %>
+            <% link_to option[:url], title: option[:texto], class: option[:switch] do %>
               <%= option[:texto] %>
             <% end %>
           </li>
