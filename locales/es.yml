@@ -33,6 +33,7 @@ es:
   presentation:
     title: Design Sprint Enterprise
     description_home: Una adaptación de la metodología original para usarla en entornos corporativos.
+    button: Saber más
     day1: Mapear
     day2: Bocetear
     day3: Votar
@@ -42,10 +43,40 @@ es:
     why: El 2016 conocimos la famosa metodología <a href="http://www.gv.com/sprint/">Design Sprint de Google Ventures</a> que tiene como requisito fundamental la participación de todos los involucrados durante una semana. Nos encantó la idea de empezar a probarla, pero por nuestra experiencia trabajando con clientes de grandes empresas, reconocimos que con la falta de tiempo de los tomadores de decisiones, se vuelve casi imposible conseguir su participación fulltime en los proyectos. <br> <br>Dado ese escenario es que decidimos ajustar las actividades que los involucran, para sólo requerirlos en aquellas de carácter relevante donde su visión es clave para las futuras etapas del proceso. Hasta la fecha hemos probado y afinado la adaptación con éxito en muchos proyectos y en lugar queremos poner a disposición de la comunidad todo este aprendizaje e invitarlos a compartir sus experiencias con nosotros también.
 
   how:
-    how-title: Cómo funciona
-    subtitle: La adaptación no sacrifica el corazón del Design Sprint y tampoco consiste en reducir el tiempo de ejecución. Dura los mismos 5 días pero elimina algunas actividades y sobre todo la participación del cliente enterprise en ellas.
-    recommend: Antes de poner en práctica un Design Sprint se deben definir algunas partes claves. Es recomendable tomar al menos un par de semanas para hacer investigación tanto con usuarios como con el negocio. Se puede hacer mediante entrevistas personales con usuarios finales y stakeholders.
-    reference: Locate in Av. Libertador Bernardo O'Higgins 390, Metro Universidad Católica, L1
+    how-title: En qué consiste la adaptación
+    subtitle: La adaptación no sacrifica el corazón de la metodología original. No consiste en reducir el tiempo de ejecución. Dura los mismos 5 días pero suprime algunas actividades y fundamentalmente optimiza la participación del cliente enterprise en ellas.
+    steps:
+      dia0:
+        title: Investigar y Definir
+        text: Durante los días previos al sprint, el equipo investigará a los usuarios, definirá los objetivos del negocio, las métricas y priorizará las hipótesis que serán validadas a través de Design Sprint.
+        day: Días previos
+        image: 'home-graphic-d0.svg'
+      dia1:
+        title: Mapear la solución
+        text: La semana empieza con el desafío previamente definido que se abordará durante el sprint. Se define cuál es el objetivo a alcanzar y qué es lo que el sprint pretende validar o comprobar.
+        day: Día 1 / Lunes
+        image: 'home-graphic-d1.svg'
+      dia2:
+        title: Bocetear ideas
+        text: A través de ejercicios co-creativos de dibujos simples en papel, tanto el cliente como los consultores dibujarán propuestas para la solución que será prototipada.
+        day: Día 2 / Martes
+        image: 'home-graphic-d2.svg'
+      dia3:
+        title: Votar una propuesta
+        text: Luego de analizar cada una de las propuestas, el equipo reunido escoge la propuesta que mejor cumple con los objetivos planteados sobre lo que se quiere validar al final de la semana.
+        day: Día 3 / Miércoles
+        image: 'home-graphic-d3.svg'
+      dia4:
+        title: Armar un prototipo
+        text: Aquí los consultores (sin ayuda del cliente) se encierran a construir un prototipo lo más realista posible además de crear también una pauta de evaluación para el día siguiente.
+        day: Día 4 / Jueves
+        image: 'home-graphic-d4.svg'
+      dia5:
+        title: Validar el sprint
+        text: La última jornada se destina a poner a prueba el prototipo. Aquí de nuevo el cliente puede restarse de participar y sólo conocer el resultado de ellas resumido en insights.
+        day: Día 5 / Viernes
+        image: 'home-graphic-d5.svg'
+    close-phrase: Días en que participa el cliente enterprise
   
   footer:
     social:
