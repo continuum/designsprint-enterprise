@@ -29,6 +29,16 @@
   height: $height;
 }
 
+.cta{
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  padding: 12px 20px;
+  margin-top: 30px;
+  border-radius: 40px;
+}
+
 .presentation{
   .container{
     @include flex-center();
@@ -75,7 +85,6 @@
           padding-top: 30%;
         }
         &.d1{
-          //animation-delay: 3s;
           &:before{
             transform: rotate(-10deg);
             right: -55px;
@@ -96,13 +105,13 @@
           }
         }
         &.d4{
-          animation: appears 2s 3s backwards ease-out, offsteps 3s 5s forwards ease-in;
+          animation: appears 2s 3s backwards ease-out, offsteps 3s 3.5s forwards ease-in;
           &:before{
             right: -48px;
           }
         }
         &.d5{
-          animation: appears 2s 4s backwards ease-out, offsteps 3s 5s forwards ease-in;
+          animation: appears 2s 4s backwards ease-out, offsteps 3s 3.5s forwards ease-in;
         }
         &:after{
           @include pseudo-block(100%, 40px);
@@ -137,13 +146,13 @@
 }
 
 .invitation{
-  background: image_url('sketching.jpg') fixed;
+  background: image_url('design-sprint-enterprise-voting-continuum.jpg') fixed;
   background-size: cover;
   position: relative;
   &:before{
     @include pseudo-block(100%, 100%);
     z-index: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
   }
   .container{
     @include flex-center();
@@ -153,8 +162,10 @@
     z-index: 1;
     .box{
       background-color: $white;
-      text-align: center;
       padding: 8%;
+      h3{
+        text-align: left;
+      }
     }
   }
 }
@@ -163,11 +174,97 @@
   .container{
     @include flex-center();
     padding: 5% 0;
-    h3{
-      color: $secondary-color;
+    min-height: 100vh;
+    .how-container{
+      display: grid;
+      grid-template-columns: 70% 30%;
+      .how-description{
+        h3{
+          color: $secondary-color;
+          margin-bottom: 4%;
+          text-align: left;
+        }
+      }
+      .how-image{
+        img{
+          width: 85%;
+        }
+      }
     }
-    h4{
-      text-align: center;
+    
+    .steps{
+      display: grid;
+      grid-template-columns: repeat(6, 16%);
+      grid-column-gap: 10px;
+      margin: 20px 0 0;
+      .steps-step{
+        padding: 5% 10% 25% 5%;
+        position: relative;
+        &:first-child{
+          border-right: 1px dashed $medium-gray;
+          padding-left: 0;
+        }
+        &:nth-child(4){
+          border-right: 1px dashed $medium-gray;
+        }
+        &:last-child{
+          padding-right: 0;
+        }
+        .step-title{
+          position: absolute;
+          border-bottom: 2px solid $primary-color;
+          display: inline-block;
+          color: $primary-color;
+          text-transform: uppercase;
+          font-size: 0.6rem;
+          font-weight: bold;
+          padding: 3px 0;
+          bottom: 0;
+        }
+        .step-subtitle{
+          font-family: 'Amatic SC', cursive;
+          font-size: 1.6rem;
+          padding: 5px 0;
+        }
+        .step-image{
+          margin: 15px auto;
+          height: 180px;
+          text-align: center;
+          img{
+            width: 85%;
+          }
+        }
+        p{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .steps-client-block{
+      display: grid;
+      grid-template-columns: 15.9% 50.6% auto;
+      span{
+        position: relative;
+        display: block;
+        grid-column: 2 / span 1;
+        padding: 30px 10px 10px;
+        text-align: center;
+        &:before{
+          @include pseudo-block(100%, 1px);
+          background-color: $medium-gray;
+          top: 45px;
+          width: 98%;
+          z-index: 0;
+        }
+        p{
+          display: inline-block;
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          position: relative;
+          z-index: 1;
+          background-color: white;
+          padding: 5px 10px;
+        }
+      }
     }
   }
 }

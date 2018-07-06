@@ -39,7 +39,7 @@ ul{
 
 body {
   background-color: $white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
   color: $dark-gray;
@@ -78,6 +78,11 @@ section, footer, header, div{
     max-width: 1178px;
     margin: 0 auto;
   }
+}
+
+.grids{
+  display: grid;
+  grid-template-columns: repeat(12, 8.33%);
 }
 
 @media only screen 
