@@ -14,19 +14,23 @@ es:
       presentation:
         texto: Presentación
         url: '/'
+        switch: 'on'
       why:
         texto: Por qué
         url: '/#why'
+        switch: 'on'
       methodology:
         texto: Metodología
-        url: '/methodology'
+        url: '/metodologia/'
+        switch: 'on'
       resources:
         texto: Recursos
         url: '/#resources'
+        switch: 'off'
       cases:
         texto: Casos
         url: '/#cases'
-        clase: deactivated
+        switch: 'off'
     logo:
       url: '/'
   
@@ -51,35 +55,41 @@ es:
         text: Durante los días previos al sprint, el equipo investigará a los usuarios, definirá los objetivos del negocio, las métricas y priorizará las hipótesis que serán validadas a través de Design Sprint.
         day: Días previos
         image: 'home-graphic-d0.svg'
+        link: '/metodologia/#dia0'
       dia1:
         title: Mapear la solución
         text: La semana empieza con el desafío previamente definido que se abordará durante el sprint. Se define cuál es el objetivo a alcanzar y qué es lo que el sprint pretende validar o comprobar.
         day: Día 1 / Lunes
         image: 'home-graphic-d1.svg'
+        link: '/metodologia/#dia1'
       dia2:
         title: Bocetear ideas
         text: A través de ejercicios co-creativos de dibujos simples en papel, tanto el cliente como los consultores dibujarán propuestas para la solución que será prototipada.
         day: Día 2 / Martes
         image: 'home-graphic-d2.svg'
+        link: '/metodologia/#dia2'
       dia3:
         title: Votar una propuesta
         text: Luego de analizar cada una de las propuestas, el equipo reunido escoge la propuesta que mejor cumple con los objetivos planteados sobre lo que se quiere validar al final de la semana.
         day: Día 3 / Miércoles
         image: 'home-graphic-d3.svg'
+        link: '/metodologia/#dia3'
       dia4:
         title: Armar un prototipo
         text: Aquí los consultores (sin ayuda del cliente) se encierran a construir un prototipo lo más realista posible además de crear también una pauta de evaluación para el día siguiente.
         day: Día 4 / Jueves
         image: 'home-graphic-d4.svg'
+        link: '/metodologia/#dia4'
       dia5:
         title: Validar el sprint
         text: La última jornada se destina a poner a prueba el prototipo. Aquí de nuevo el cliente puede restarse de participar y sólo conocer el resultado de ellas resaltando los insights.
         day: Día 5 / Viernes
         image: 'home-graphic-d5.svg'
+        link: '/metodologia/#dia5'
     close-phrase: Días en que participa el cliente enterprise
   
   footer:
-    text: Este sitio corresponde a la documentación de la adaptación hecha por <a href="https://continuum.cl">Continuum</a> a metodología creada por <a href="http://www.gv.com/sprint/">Google Ventures</a> para uso libre de la comunidad.<br> Y fue diseñado como parte del desafío de un grupo graduadas UX de <a href="http://www.laboratoria.la/">Laboratoria</a> 2018 durante el evento <a href="http://talentfest.laboratoria.la/santiago">Talent Fest</a>, posteriormente optimizado junto a ellas durante una jornada de trabajo posterior y desarrollado por Continuum.
+    text: Este sitio corresponde a la documentación de la adaptación realizada por <a href="https://continuum.cl">Continuum</a> a la metodología creada por <a href="http://www.gv.com/sprint/">Google Ventures</a> para uso libre de la comunidad. El contenido fue creado como parte del desafío de un grupo graduadas UX de <a href="http://www.laboratoria.la/">Laboratoria</a> 2018, durante el evento <a href="http://talentfest.laboratoria.la/santiago">Talent Fest</a>, el que posteriormente se optimizó junto a ellas, diseñado y desarrollado por Continuum.
     contact: 
 
   paths:
