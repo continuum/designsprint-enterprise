@@ -46,20 +46,21 @@
       </div>
     </div>
     <div class="steps">
-      <% Hash[t('how.steps')].each do |key, step| %>  
+      <% Hash[t('how.steps')].each do |key, step| %>
         <div class="steps-step"> 
           <div class="step-image">
             <%= image_tag step[:image] %>
           </div>
           <h5 class="step-subtitle"><%= step[:title] %></h5>
           <p><%= step[:text] %></p>
-          <h4 class="step-title"><%= step[:day] %></h4>
+          <% link_to(step[:link], title: step[:day], class: 'step-title cta') do %>
+            <%= step[:day] %>
+          <% end %>
         </div>
       <% end %>
     </div>
     <div class="steps-client-block">
       <span><p><%= t('how.close-phrase') %></p></span>
     </div>
-
   </div>
 </section>
