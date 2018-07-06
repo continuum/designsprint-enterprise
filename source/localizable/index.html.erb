@@ -2,7 +2,23 @@
   <div class="container">
     <h1><%= t('presentation.title') %></h1>
     <h2><%= t('presentation.description_home') %></h2>
-    <%= image_tag 'home-graphic.svg' %>
+    <div class="schema">
+      <div class="days d1" data-name="<%= t('presentation.day1') %>">
+        <%= image_tag 'home-graphic-d1.svg' %>
+      </div>
+      <div class="days d2" data-name="<%= t('presentation.day2') %>">
+        <%= image_tag 'home-graphic-d2.svg' %>
+      </div>
+      <div class="days d3" data-name="<%= t('presentation.day3') %>">
+        <%= image_tag 'home-graphic-d3.svg' %>
+      </div>
+      <div class="days d4" data-name="<%= t('presentation.day4') %>">
+        <%= image_tag 'home-graphic-d4.svg' %>
+      </div>
+      <div class="days d5" data-name="<%= t('presentation.day5') %>">
+        <%= image_tag 'home-graphic-d5.svg' %>
+      </div>
+    </div>
   </div>
 </section> 
 
@@ -11,8 +27,39 @@
     <div class="box">
       <h3><%= t('presentation.why-title') %></h3>
       <p><%= t('presentation.why') %></p>
+      <% link_to('https://blog.continuum.cl/hackeando-los-design-sprints-para-hacer-que-siempre-funcionen-de72fc38996', title: t('presentation.button'), class: 'cta', target: '_blank') do %>
+        <% t('presentation.button') %>
+      <% end %>
     </div>
   </div>
 </section>
 
-<%= partial "partials/how" %>
+<section class="how">
+  <div class="container">
+    <div class="how-container">
+      <div class="how-description">
+        <h3><%= t('how.how-title') %></h1>
+        <h4><%= t('how.subtitle') %></h4>
+      </div>
+      <div class="how-image">
+        <%= image_tag 'global-schema.svg' %>
+      </div>
+    </div>
+    <div class="steps">
+      <% Hash[t('how.steps')].each do |key, step| %>  
+        <div class="steps-step"> 
+          <div class="step-image">
+            <%= image_tag step[:image] %>
+          </div>
+          <h5 class="step-subtitle"><%= step[:title] %></h5>
+          <p><%= step[:text] %></p>
+          <h4 class="step-title"><%= step[:day] %></h4>
+        </div>
+      <% end %>
+    </div>
+    <div class="steps-client-block">
+      <span><p><%= t('how.close-phrase') %></p></span>
+    </div>
+
+  </div>
+</section>

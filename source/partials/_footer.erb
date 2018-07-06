@@ -1,3 +1,8 @@
 <footer>
-  Footer
+  <div class="container">
+    <p><%= t('footer.text') %></p>
+    <% link_to('https://continuum.cl', target: '_blank', class: 'logo-footer') do %>
+      <%= image_tag 'logo-continuum.svg' %>
+    <% end %>
+  </div>
 </footer>

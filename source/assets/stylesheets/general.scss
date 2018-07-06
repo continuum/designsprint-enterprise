@@ -39,9 +39,10 @@ ul{
 
 body {
   background-color: $white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
+  color: $dark-gray;
   section{
     &:nth-child(odd){
       background-color: $light-gray;
@@ -51,8 +52,10 @@ body {
 
 a{
   transition: all .15s ease-in-out;
+  color: $primary-color;
   &:focus,
   &:hover {
+    color: $secondary-color;
   }
 }
 
@@ -77,6 +80,11 @@ section, footer, header, div{
     max-width: 1178px;
     margin: 0 auto;
   }
+}
+
+.grids{
+  display: grid;
+  grid-template-columns: repeat(12, 8.33%);
 }
 
 @media only screen 
