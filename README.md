@@ -5,7 +5,7 @@ This is a middleman website (https://middlemanapp.com/).
 ## Requirements
 
 - Ruby Version 2.4.1 (or latest January 2018) [https://www.ruby-lang.org/en/downloads/]
-- Bundler [http://bundler.io/]s
+- Bundler [http://bundler.io/]
 
 ## Local installation
 
